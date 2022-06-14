@@ -22,6 +22,7 @@ public class C02_Variables {
         int sayi1=66;
         long sayi2=55;
         System.out.println(sayi1+sayi2);
+        System.out.println();
 
         int sayi3=77;
         double sayi4=55.4;
