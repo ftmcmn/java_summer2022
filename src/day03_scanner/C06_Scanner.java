@@ -8,8 +8,8 @@ public class C06_Scanner {
         /*
         kullanıcıdan ismini soyismini ve yasını alıp
         girilen bilgiler = fatma cimen 34 seklinde yazdirin
+        */
 
-         */
         Scanner scan= new Scanner(System.in);
         System.out.println("lutfen isminizi giriniz");
         String isim= scan.nextLine();
