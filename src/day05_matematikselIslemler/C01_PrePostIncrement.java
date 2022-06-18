@@ -1,8 +1,8 @@
-package day04_dataCasting;
+package day05_matematikselIslemler;
 
-public class C05_PrePostIncrement {
+public class C01_PrePostIncrement {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
         int sayi1= 10;
         int sayi2= sayi1 +1 ;  // sayi2--> 11
@@ -20,5 +20,7 @@ public class C05_PrePostIncrement {
 
         int sayi4=++sayi1;      // 1- sayi1 bir artirilacak
                                 // 2- sayi1 degeri, sayi4'e atanacak
+
+        System.out.println();
     }
 }

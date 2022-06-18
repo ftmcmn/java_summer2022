@@ -20,5 +20,7 @@ public class C001_Variables {
         //  " " icinde yazilan hersey metindir, Java " " icinde ne gorurse o sekilde yazdirir
         // eger bir variable'in degerini yazdirmak istiyorsaniz
         // " " olmadan variable ismini yazmalisiniz
+
+
     }
 }

@@ -9,6 +9,7 @@ public class C01_AsciiTable {
         char harf='a';
         String str="banan";
 
+
         System.out.println(sayi+harf); // 10a degil 107 oldu
 
         System.out.println(sayi*harf); // 970
