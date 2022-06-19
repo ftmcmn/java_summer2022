@@ -1,6 +1,6 @@
 package day02_variables;
 
-public class C02_Variables_odev {
+public class Odev {
     public static void main(String[] args) {
 
        /* 1- Farkli 3 data turunde variable olusturun ve bunlari yazdirin
