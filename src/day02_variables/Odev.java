@@ -14,15 +14,21 @@ public class Odev {
         6- Bir tamsayi, bir de char degisken olusturun ve bunlarin toplamini yazdirin.*/
 
 
+        byte sayii=68;
+        short rakam=158;
+        boolean guzelMi=true;
+        System.out.println(sayii+" "+rakam+" "+guzelMi);
+
+
         String isim="mehmet";
         String soyIsim="bulutluoz";
-        System.out.println("isminiz :"+isim);
-        System.out.println("soyisminiz :"+soyIsim);
+        System.out.println("isminiz :"+isim +"\nsoyisminiz : " +soyIsim);
+
 
         int sayi1=66;
         long sayi2=55;
         System.out.println(sayi1+sayi2);
-        System.out.println();
+
 
         int sayi3=77;
         double sayi4=55.4;
@@ -31,9 +37,10 @@ public class Odev {
         char harf='f';
         System.out.println(harf);
 
-        int sayi5=4;
+
         char sayi='A';
-        System.out.println(sayi5+sayi);
+        int sayi5=4;
+        System.out.println(sayi+sayi5);
     }
 
 }

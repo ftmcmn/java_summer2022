@@ -8,5 +8,7 @@ public class C02_Variables {
         System.out.println(sayi); // 10
         System.out.println("sayi"); // sayi
         System.out.println("sayi : " + sayi); // sayi : 10
+
+
     }
 }

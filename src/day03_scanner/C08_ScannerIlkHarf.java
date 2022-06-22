@@ -16,5 +16,6 @@ public class C08_ScannerIlkHarf {
         char ilkHarf=scan.next().toUpperCase().charAt(0);
 
         System.out.println("ismin ilk harfi :"+ilkHarf);
+
     }
 }

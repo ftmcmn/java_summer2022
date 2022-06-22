@@ -15,10 +15,18 @@ public class C05_PrePostIncrement {
         yazilmasina gore farkli iki isleyis olur
          */
 
-        int sayi3 = sayi2++;    // 1- sayi2 bir artirilacak
+        int sayi3 = sayi2++;
+                System.out.println(sayi3);
+                System.out.println(sayi2);
+                                // 1- sayi2 bir artirilacak
                                 // 2- sayi2 degeri, sayi3'e atanacak
 
-        int sayi4=++sayi1;      // 1- sayi1 bir artirilacak
+        int sayi4= ++sayi1;
+                System.out.println(sayi4);
+                System.out.println(sayi1);
+
+
+                                // 1- sayi1 bir artirilacak
                                 // 2- sayi1 degeri, sayi4'e atanacak
     }
 }

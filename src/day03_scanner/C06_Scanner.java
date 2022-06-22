@@ -14,7 +14,7 @@ public class C06_Scanner {
         System.out.println("lutfen isminizi giriniz");
         String isim= scan.nextLine();
         System.out.println("lutfen soyisminizi giriniz");
-        String soyisim=scan.next();
+        String soyisim=scan.nextLine();
         System.out.println("lutfen yasinizi giriniz");
         int yas=scan.nextInt();
 

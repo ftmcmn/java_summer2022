@@ -3,7 +3,7 @@ package day02_variables;
 public class C001_Variables {
     public static void main(String[] args) {
 
-        int          not              =                60                  ;
+        int         not              =                 60                 ;
         //data turu    vatiable ismi  assignment sign   variable degeri  islem bitti isareti
 
         int not2   =      70;
@@ -20,6 +20,8 @@ public class C001_Variables {
         //  " " icinde yazilan hersey metindir, Java " " icinde ne gorurse o sekilde yazdirir
         // eger bir variable'in degerini yazdirmak istiyorsaniz
         // " " olmadan variable ismini yazmalisiniz
+
+
 
 
     }

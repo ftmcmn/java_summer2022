@@ -14,4 +14,5 @@ public class Q06_Average {
 
 
 
+
 }

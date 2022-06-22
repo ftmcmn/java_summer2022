@@ -22,7 +22,7 @@ public class C04_Scanner {
         String kullaniciIsmi=scan.next();
 
 
-        System.out.println("Isminiz: " + kullaniciIsmi);
+        System.out.println("kullaniciIsmi = " + kullaniciIsmi);
 
     }
 }

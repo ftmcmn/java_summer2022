@@ -24,5 +24,8 @@ public class C05_Scanner {
         double sayi2= scan.nextDouble();
 
         System.out.println("Girilen sayilari carpimi : "+sayi1*sayi2);
+
+
+
     }
 }

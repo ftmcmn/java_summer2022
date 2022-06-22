@@ -20,7 +20,7 @@ public class C01_DataCasting {
         sizden eger bu atamayi istiyorsaniz sorumlulugu almanizi bekler
          */
 
-        int sayi1=(int)7.3;
+        int sayi1=(int) 7.3;
         System.out.println("sayi1 : " + sayi1); // 7
 
         double sayi2=10;

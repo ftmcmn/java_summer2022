@@ -11,5 +11,6 @@ public class C04_WrapperClass {
         // her bir primitive data turu icin bir wrapper class olusturmustur.
         Integer sayi2=10;
         sayi2.byteValue();
+
     }
 }
