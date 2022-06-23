@@ -1,5 +1,7 @@
 package day08_ifStatements;
 
+import java.util.Scanner;
+
 public class Odev6 {
     public static void main(String[] args) {
         /*
@@ -10,5 +12,9 @@ public class Odev6 {
         sayilardan sıfıra esit olan varsa "sifir carpmaya göre yutan elemandır"
         yazdirin.
          */
+
+        Scanner scan= new Scanner(System.in);
+        System.out.println("lütfen bir sayi giriniz");
+        double sayi=scan.nextDouble();
     }
 }
