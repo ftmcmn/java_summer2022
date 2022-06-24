@@ -13,6 +13,6 @@ public class Odev01 {
         double sayi1=scan.nextDouble();
         double sayi2=scan.nextDouble();
 
-        System.out.println(sayi1<sayi2?sayi1:sayi2);
+        System.out.println(sayi1<sayi2 ? sayi1 : sayi2);
     }
 }

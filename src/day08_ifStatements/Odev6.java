@@ -15,6 +15,19 @@ public class Odev6 {
 
         Scanner scan= new Scanner(System.in);
         System.out.println("lütfen bir sayi giriniz");
-        double sayi=scan.nextDouble();
+        double sayi1=scan.nextDouble();
+        System.out.println("lütfen bir sayi daha giriniz");
+        double sayi2=scan.nextDouble();
+
+        if (sayi1>0 && sayi2>0){
+            System.out.println("sayilarin toplami : " +(sayi1+sayi2));
+        }else if (sayi1<0 && sayi2<0){
+            System.out.println("sayilarin carpimi : "+sayi1*sayi2);
+        }else if ((sayi1<0 && sayi2>0) || (sayi1>0 && sayi2<0)){
+            System.out.println("farkli isaretlerde sayilarla islem yapamazsin" );
+        }else System.out.println("sifir carpmaya göre yutan elemandır");
+
+
+
     }
 }

@@ -12,6 +12,20 @@ public class Q07_Converting {
         // c = (f-32)*5/9
      */
 
+    public static void main(String[] args) {
+        double litre=1;
+        double gallon=1;
+
+        litre=gallon*3.785;
+
+        gallon=litre*3.785;
+
+        System.out.println(litre);
+        System.out.println(gallon);
+
+    }
+
+
 
 
 }
