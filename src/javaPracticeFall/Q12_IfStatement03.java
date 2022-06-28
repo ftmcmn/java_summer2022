@@ -4,7 +4,9 @@ package javaPracticeFall;
 import java.util.Scanner;
 
 public class Q12_IfStatement03 {
-		/*
+    public static void main(String[] args) {
+
+   /*
         Print "Lutfen is unvaninizi girin
         jobTitle isimli bir degisken olusturun ve kullanicidan isteyin.
         Dogru jobTitle yazdirmak icin asagidaki test datalarini kullanin. Example :
@@ -14,21 +16,21 @@ public class Q12_IfStatement03 {
         ba ise print Business Analyst
         pm ise print Project Manager
        */
-        public static void main(String[] args) {
-            Scanner scan=new Scanner(System.in);
-            System.out.println("lutfen is unvaninizi giriniz ");
-            String jobTitle=scan.nextLine().toLowerCase();
 
-            if (jobTitle.equals("qa")){
+            Scanner scan = new Scanner(System.in);
+            System.out.println("lutfen is unvaninizi giriniz ");
+            String jobTitle = scan.nextLine().toLowerCase();
+
+            if (jobTitle.equals("qa")) {
                 System.out.println("Quality Analyst");
-            }else if (jobTitle.equals("dev")) {
+            } else if (jobTitle.equals("dev")) {
                 System.out.println("Developer");
-            }else if (jobTitle.equals("ba")) {
+            } else if (jobTitle.equals("ba")) {
                 System.out.println("Business Analyst");
-            }else if (jobTitle.equals("pm")) {
+            } else if (jobTitle.equals("pm")) {
                 System.out.println("Project Manager");
             }
-        }
+
+    }
 
 }
-
