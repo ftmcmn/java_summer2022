@@ -12,7 +12,7 @@ public class C04_BasitIfStatement {
 
         Scanner scan=new Scanner(System.in);
         System.out.println("lutfen bir gun ismi giriniz");
-        String girilenGun=scan.next().toUpperCase();
+        String girilenGun=scan.next().toLowerCase();
 
         if (girilenGun.equals("pazar") || girilenGun.equals("cumartesi")){
             System.out.println("girilen gun haftasonu");

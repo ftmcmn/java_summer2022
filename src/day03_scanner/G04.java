@@ -1,4 +1,4 @@
-package odev;
+package day03_scanner;
 
 import java.util.Scanner;
 
