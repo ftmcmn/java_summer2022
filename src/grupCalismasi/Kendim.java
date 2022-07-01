@@ -1,18 +1,41 @@
 package grupCalismasi;
 
+import java.util.Scanner;
+
 public class Kendim {
     // Kullanıcının yasadıgı güne  göre 100 gün sonra hangi gün olduğunuz yazdırınız.
     // pazartesi hafta başlangıcı
+    public static void main(String[] args) {
 
-    // Girilen bir ay numarasına göre , ayın kaç gün olduğunu sayı ile yazdırınız
-    /*
-     * TASK :
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Pazartesi: 1\nSalı : 2\nÇarşamba: 3\nPerşembe: 4\nCuma: 5\nCumartesi: " +
+                "6\nPazar: 7\n Haftanın kaçıncı gününde olduğunu giriniz : ");
+        int kacıncıGun = scan.nextInt();
 
-     * Kullanicidan aldigi urunun adedini ve liste fiyatini alin, kullaniciya
-     * musteri karti olup olmadigini sorun
-     * Musteri karti varsa ve 10 urunden fazla alirsa %20, yoksa %15 indirim yapin
-     * Musteri karti yoksa ve 10 urunden fazla alirsa %15, 10 urunden az
-     * alirsa %10 indirim yapan code create ediniz.
-     */
-    //Kullanıcıdan aldığınız koordinat noktasının hangi bölgede olduğunu yazdıran bir kod yazınız.
+        if (kacıncıGun<1 || kacıncıGun>7){
+            System.out.println("hatali gun sayisi girdiniz");
+        }else {
+            System.out.println("kac gun sonraki gunu ogrenmek istiyorsunuz");
+            int kacGunSonra=scan.nextInt();
+
+            int hesaplananGun=(kacıncıGun+kacGunSonra)%7;
+
+            switch (hesaplananGun){
+                case 0:
+                    System.out.println("girdiginiz gunden "+kacGunSonra+ " gun sonrasi pazar");
+                case 1:
+                    System.out.println("girdiginiz gunden "+kacGunSonra+ " gun sonrasi pazartesi");
+                case 2:
+                    System.out.println("girdiginiz gunden "+kacGunSonra+ " gun sonrasi sali");
+                case 3:
+                    System.out.println("girdiginiz gunden "+kacGunSonra+ " gun sonrasi carsamba");
+                case 4:
+                    System.out.println("girdiginiz gunden "+kacGunSonra+ " gun sonrasi persembe");
+                case 5:
+                    System.out.println("girdiginiz gunden "+kacGunSonra+ " gun sonrasi cuma");
+                case 6:
+                    System.out.println("girdiginiz gunden "+kacGunSonra+ " gun sonrasi cumartesi");
+            }
+        }
+    }
 }
