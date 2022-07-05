@@ -8,6 +8,17 @@ public class Odev3 {
             @gmail.com ile bitiyorsa  “Email adresiniz kaydedildi “ ,
             @gmail.com ile bitmiyorsa lutfen yazimi kontol edin yazdirin
 
-         */
+        */
+
+        String eMail="ftmcmn@gmail.commm";
+
+        if (!eMail.contains("@gmail.com")){
+            System.out.println("lutfen gmail adresi giriniz");
+        }else if (eMail.endsWith("@gmail.com")){
+            System.out.println("Email adresiniz kaydedildi");
+        }else if (!eMail.endsWith("@gmail.com")){
+            System.out.println("lutfen yazimi kontol edin");
+        }
+
     }
 }

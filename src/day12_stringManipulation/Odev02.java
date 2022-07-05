@@ -11,5 +11,15 @@ public class Odev02 {
         -girilen kelime cumlede 1den fazla kullanilmis
 
          */
+
+        String cumle="bu hayatin heyecani meyacani yok bu kadar";
+        String kelime="bu";
+
+        if (!cumle.contains(kelime)){
+            System.out.println("girilen kelime cumlede kullanilmamis");
+        }else if (cumle.indexOf(kelime)==cumle.lastIndexOf(kelime)){
+            System.out.println("girilen kelime cumlede 1 kere kullanilmis");
+        }else System.out.println("girilen kelime cumlede 1den fazla kullanilmis");
+
     }
 }

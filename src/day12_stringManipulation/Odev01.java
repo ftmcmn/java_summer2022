@@ -6,5 +6,10 @@ public class Odev01 {
         kull bir cumle ve bir harf isteyin, harfin cumlede
         var olup olmadıgını yazdırın
          */
+
+        String cumle="bu hayatin heyecani meyacani yok";
+        String kelime="bu";
+
+        System.out.println(cumle.contains(kelime)?"var":"yok");
     }
 }
