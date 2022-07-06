@@ -1,6 +1,6 @@
-package grupCalismasi;
+package GrupCalismasi;
 
-public class String {
+public class Gun3_03 {
     public static void main(String[] args) {
         /* TASK :
         Kullanicidan email girmesini isteyin
@@ -12,6 +12,5 @@ public class String {
        INPUT : techproed@gmail.com OUTPUT :  "email onaylandi "
        INPUT : techproed@hotmail.com OUTPUT : "Lutfen gmail hesabinizi girin"
        */
-
     }
 }

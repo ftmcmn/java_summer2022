@@ -1,9 +1,9 @@
-package grupCalismasi;
+package GrupCalismasi;
 
 import java.util.Scanner;
 
 public class Gun1_02 {
-    public static void main(String[] args) {
+    public static void main(java.lang.String[] args) {
 
         // Kullanıcının yasadıgı güne  göre 100 gün sonra hangi gün olduğunuz yazdırınız.
         // pazartesi hafta başlangıcı

@@ -1,4 +1,4 @@
-package grupCalismasi;
+package GrupCalismasi;
 
 import java.util.Scanner;
 
