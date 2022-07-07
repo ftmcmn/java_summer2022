@@ -12,5 +12,24 @@ public class Gun3_03 {
        INPUT : techproed@gmail.com OUTPUT :  "email onaylandi "
        INPUT : techproed@hotmail.com OUTPUT : "Lutfen gmail hesabinizi girin"
        */
+
+        String eMail="techproed@gmail.com";
+
+        if (!eMail.contains("@")){
+            System.out.println("gecerli bir email girin");
+        }else if (eMail.endsWith("@gmail.com")){
+            System.out.println("email onaylandi");
+        }else System.out.println("Lutfen gmail hesabinizi girin");
+
+        boolean kontrol=eMail.contains("@");
+
+        int index=eMail.indexOf("@");
+
+        if (!kontrol){
+            System.out.println("gecerli bir email girin");
+
+        }else if (eMail.substring(index+1).equals("gmail.com")){
+            System.out.println("email onaylandi");
+        }else  System.out.println("Lutfen gmail hesabinizi girin");
     }
 }

@@ -32,6 +32,7 @@ public class Odev10 {
             if (sifre.length() < 8) {
                 System.out.println("Sifre uzunlugu en az 8 karakter olmali");
             }
+            System.out.println("Islem basarisiz,Lutfen yeni bir sifre girin");
 
 
         } else  System.out.println("Sifre basari ile tanimlandi");
