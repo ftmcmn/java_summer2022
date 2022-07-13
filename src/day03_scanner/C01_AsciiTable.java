@@ -36,6 +36,8 @@ public class C01_AsciiTable {
 
         System.out.println(""+sayi+harf); //10a
         char deger='1';
+        char dgr=1;
         System.out.println(deger + harf); // '1' + 'a' -->  49 + 97 =146
+        System.out.println(dgr);
     }
 }
