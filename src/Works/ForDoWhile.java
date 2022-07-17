@@ -20,7 +20,7 @@ public class ForDoWhile {
         System.out.println("lutfen bir cumle giriniz");
         String cumle = scan.nextLine();
         System.out.println("lutfen bir harf giriniz");
-        char harf = scan.next().charAt(0);
+        char harf = scan.nextLine().charAt(0);
 
         int sayac=0;
 

@@ -16,23 +16,22 @@ public class ForDoWhile2 {
 
         Scanner scan = new Scanner(System.in);
         String str = "";
-        str=scan.nextLine();
+        System.out.println("birseyler yaziniz");
 
 
+
+/*
        while (!str.equalsIgnoreCase("x")){
 
-           System.out.println("birseyler yaziniz");
-
-
-           System.out.println("d");
-
+           str=scan.nextLine();
+           System.out.println("program calısıyor");
 
         }
         System.out.println("program bitti");
 
 
 
-   /*     do {
+       do {
 
 
             System.out.println("çalıstı");
@@ -43,7 +42,18 @@ public class ForDoWhile2 {
         }while (!str.equalsIgnoreCase("x"));
         System.out.println("program bitti");
 
-*/
+*/      int num=2;
+        for (int i = 0; i <num; i++) {
+
+
+            str=scan.nextLine();
+
+            if (str.equalsIgnoreCase("x")) break;
+            if (i==num-1) break;
+            System.out.println("program çalısıyor");
+
+        }
+        System.out.println("bitti");
 
     }
 }
