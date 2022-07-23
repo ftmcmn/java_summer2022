@@ -6,11 +6,14 @@ public class Kamyon {
     public String model="Model belirtilmedi";
     public int yil;
     public int fiyat;
+
     public Kamyon(String marka, String model, int yil, int fiyat) {
+
         this.marka=marka;
         this.model=model;
         this.yil=yil;
         this.fiyat=fiyat;
+
         /*
           bizim temel amacimiz KamyonRunner'da argument olarak girilen degerin
           Kamyon class'inda intstance variable'a atanmasi
@@ -28,15 +31,16 @@ public class Kamyon {
         this.marka = marka;
         this.model = model;
     }
-    public Kamyon(){
+
+    public Kamyon() {
+
     }
     @Override
     public String toString() {
         return
                 "\nmarka : " + marka  +
-                "\nmodel : " + model  +
-                "\nyil : " + yil +
-                "\nfiyat : " + fiyat ;
+                        "\nmodel : " + model  +
+                        "\nyil : " + yil +
+                        "\nfiyat : " + fiyat ;
     }
-
 }

@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 public class C02_Constructor {
 
+
+
     public static void main(String[] args) {
 
         C01         obj1        =   new         C01()    ;

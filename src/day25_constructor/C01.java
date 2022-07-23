@@ -14,7 +14,27 @@ public class C01 {
   C02 class'inda icinde oldugumuz C01 class'indan bir obje uretebildik
  */
 
-    int sayi;
+    public C01(int sayi) {
+
+
+      this.sayi=sayi;
+
+    }
+
+    C01(){
+
+    }
+
+    int sayi=4;
+
+   static double sayi1=3;
+
+    public C01(int sayi, double sayi1) {
+
+        System.out.println(sayi);
+        System.out.println(sayi1);
+    }
+
 
     public void deneme(){
 
