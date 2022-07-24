@@ -6,7 +6,7 @@ public class Sorular {
     soru1: stack memory asagıdakilerden hangilerini barındırır?
     a) primitive data tiplerine ait degerleri
     b)Non-primitive datalara (Object) ait referanslari(adres)
-    c)Non-primitive datalara (Object) ait referanslari(adres)
+    c)Non-primitive datalari
     d) hepsi
     cevap:a ve b
 
@@ -67,7 +67,7 @@ public class Sorular {
     soru7:Asagıdaki Access Modifier(Erisim duzenleyici)lerin hangileri bulundugu paket(package)’den kullanilir?
     a)public b)private c)default d)protected
 
-    cevap:a b d
+    cevap:a c d
 
     soru8:Method signature(imzası)’i degistirmek icin asagıdakilerden hangisi yanlıstır?
 
@@ -80,7 +80,7 @@ public class Sorular {
 
     soru9)for loop ta Baslangic degeri icin bitis sarti false olursa asagıdakilerden hangisi yanlıstır?
      a)loop body’si hic devreye girmez.
-     b)For loop calisir ama body hic calismmis olur.
+     b)For loop calisir ama body hic calismamis olur.
      c)sonsuz döngü olusur
      d)hepsi
 
@@ -130,16 +130,16 @@ public class Sorular {
      List<String> hayvan = new ArrayList<>( );
      hayvan.add("kedi");
      hayvan.add("yilan");
-     hayvan.add(“kedi");
+     hayvan.add(“kuğu");
 
      a)System.out.println(hayvan.remove(“kedi”)); //true
      b)System.out.println(hayvan.remove(“tavsan”)); //false
      c)System.out.println(hayvan.remove(1)); //yilan
-     d)System.out.println(hayvan.remove(1)); //true
+     d)System.out.println(hayvan.remove(0)); //true
 
      cevap:d
 
-     soru15:sagıdaki çıktılardan hangisi dogrudur?
+     soru15:Asagıdaki çıktılardan hangisi dogrudur?
      List<String> cicekler = new ArrayList<>();
      cicekler.add("yasemin");
      cicekler.add("nilufer");
@@ -147,11 +147,11 @@ public class Sorular {
      a) System.out.println(cicekler.set(1, "papatya")); // true
      b) System.out.println(cicekler.set(2, "papatya")); // IndexOutOfBoundsException
      c) System.out.println(cicekler.clear()); //true
-     d) System.out.println(cicekler.isEmpty()); //true
+     d) System.out.println(cicekler.isEmpty()); //false
 
      cevap:b
 
-     soru16:asList() methodu ile arrayden liste cevrile listte asagıdaki methodlardan hangisi kullanılabilir?
+     soru16:asList() methodu ile arrayden liste cevrilen listte asagıdaki methodlardan hangisi kullanılabilir?
      a) add()
      b) remove()
      c) clear()
